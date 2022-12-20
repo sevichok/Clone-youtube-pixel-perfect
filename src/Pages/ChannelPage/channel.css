@@ -1,0 +1,28 @@
+.ch-content {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 8px;
+    z-index: 1;
+    margin-top: -30px;
+  }
+  .ch-main {
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+  }
+
+  @media screen and (max-width:480px) {
+
+    .ch-content {
+      margin-top: 0px;
+      padding-top: 6px;
+    }
+    .ch-main {
+      margin-top: 0px;
+    }
+  }
+  @media screen and  (min-width:400px){
+    .content-timing {
+      right: 6vw;
+    }
+  }

@@ -1,0 +1,26 @@
+.m-content-third-row {
+    padding-top: 34px;
+}
+.m-content-third-row .m-content-row-content-item img {
+    width: 250px;
+    height: 150px;
+    border-radius: 14px;
+    object-fit: cover;
+}
+.m-content-third-row .m-arrow {
+  margin-top: 16px;
+  margin-left: 2px;
+}
+.m-content-third-row .m-content-row-desc{
+    padding-top: 12px;
+}
+.m-content-third-row .m-content-header-btns{
+    padding-right: 184px;
+}
+
+
+@media screen and (max-width:480px) {
+    .m-content-third-row {
+    display: none;
+    }
+}

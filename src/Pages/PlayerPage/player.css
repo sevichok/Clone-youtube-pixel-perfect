@@ -1,0 +1,13 @@
+.v-main {
+    display: flex;
+    padding: 28px 70px 0px 80px;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  @media screen and (max-width:480px) {
+    .v-main {
+      flex-direction: column;
+      padding: 0px;
+      max-height: 1024px;
+    }
+  }

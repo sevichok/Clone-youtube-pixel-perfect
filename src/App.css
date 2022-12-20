@@ -1,0 +1,8 @@
+.App {
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+  max-width: 1920px;
+  max-height: 1200px;
+  overflow: hidden;
+  margin: auto;
+}

@@ -1,0 +1,23 @@
+.m-content-second-row {
+    padding-left: 2px;
+    padding-top: 31px;
+}
+.m-content-second-row .m-content-row-content-item img {
+    width: 540px;
+    height: 250px;
+    border-radius: 14px;
+    object-fit: cover;
+}
+.m-content-second-row .m-content-figcaption {
+    padding-top: 8px;
+    padding-left: 1px;
+}
+.m-content-second-row .m-content-row-header figcaption {
+    padding-top: 17px;
+}
+
+@media screen and (max-width:480px) {
+    .m-content-second-row {
+    display: none;
+    }
+}

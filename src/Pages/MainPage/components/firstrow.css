@@ -1,0 +1,17 @@
+.m-content-first-row .m-content-row-content-item img {
+    width: 250px;
+    height: 150px;
+    border-radius: 14px;
+    object-fit: cover;
+}
+.m-content-first-row .arrow {
+  margin-top: 16px;
+  margin-left: 2px;
+}
+
+@media screen and (max-width:480px) {
+    .m-content-first-row .m-content-row-content-item img {
+    /* width: 288px; */
+    width: 90vw;
+    }
+}
