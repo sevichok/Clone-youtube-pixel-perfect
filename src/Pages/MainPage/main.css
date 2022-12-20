@@ -2,10 +2,8 @@
   width: 100%;
   display: flex;
   margin-top: 50px;
-  /* overflow: hidden; */
 }
 .m-content-row-desc {
-  font-family: 'Mulish', sans-serif;
   display: flex;
   align-items: center;
   gap: 20px;
@@ -31,7 +29,6 @@
   position: relative;
 }
   .m-content-figcaption  {
-    font-family: 'Mulish', sans-serif;
     color: rgba(25, 32, 44, 1);
     font-weight: 700;
     font-size: 16px;
@@ -45,7 +42,6 @@
     box-sizing: border-box;
   }
   .m-content-figcaption-stats p {
-    font-family: 'Mulish', sans-serif;
     color: rgba(194, 194, 194, 1);
     font-weight: 400;
     font-size: 13px;
@@ -108,7 +104,6 @@
   .m-sub-button {
     height: 40px;
     width: 154px;
-    font-family: 'Mulish', sans-serif;
     color: rgba(255, 255, 255, 1);
     background-color: rgba(255, 0, 0, 1);
     border: 0;
