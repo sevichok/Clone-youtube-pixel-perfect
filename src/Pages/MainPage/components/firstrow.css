@@ -12,5 +12,23 @@
 @media screen and (max-width:480px) {
     .m-content-first-row .m-content-row-content-item img {
     width: 90vw;
+    height: 18vh;
     }
 }
+@media (min-width:481px) and (max-width:768px) {
+  .m-content-first-row .m-content-row-content-item img {
+    width: 90vw;
+    height: 30vh;
+    }
+    .m-content-figcaption {
+    font-size: 24px;
+    line-height: 28px;
+    }
+    .m-content-timing {
+    bottom: 72px;
+    right: 13px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+

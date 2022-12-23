@@ -23,6 +23,7 @@
     gap: 4px;
   }
   .v-header-logo {
+    display: flex;
     padding-top: 1.5px;
   }
   .v-header-menu span {
@@ -134,5 +135,35 @@
       margin-left: auto;
       padding-right: 18px;
     }
-  
+    }
+    @media (min-width:481px) and (max-width:768px) {
+      .v-header {
+        padding: 20px 20px;
+        box-sizing: border-box;
+      }
+     
+      .v-header-search input,
+      .v-header-sidebar-icons,
+      .v-header-sidebar-user,
+      .v-header-sidebar   {
+        display: none;
+      }
+      .v-header-logo img {
+        margin-right: 0px;
+      }
+      .v-header-menu {
+        position: absolute;
+        left: 92%;
+        gap: 2px;
+      }
+      .v-header-menu span {
+        border-radius: 50%;
+        width: 5px;
+        height: 5px;
+      }
+      .v-header-search {
+        padding-left: 0px;
+        margin-left: auto;
+        padding-right: 18px;
+      }
     }

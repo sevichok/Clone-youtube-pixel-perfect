@@ -51,7 +51,7 @@ a {
     padding-left: 3px;
   }
 
-  @media screen and (max-width:480px) {
+  @media screen and (max-width:768px) {
     .sidebar-subs {
       display: none;
     }

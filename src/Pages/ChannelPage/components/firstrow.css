@@ -66,7 +66,7 @@
 
 
   /* /////////////////////////////////////////////////////////// */
-  @media screen and (max-width:480px) {
+  @media screen and (max-width:768px) {
     .content-row-header, 
     .first-row-subs img,
     .second-row-right,
@@ -123,7 +123,29 @@
     .content-first-row {
       padding-right: 0px;
   }
+  }
 
+  @media (min-width:400px) and (max-width:768px) {
+    .first-row-cover img {
+      height: 165px;
+    }
+    .first-row-userpic img {
+      height: 120px;
+      width: 120px;
+  }
+    .first-row-userpic p:first-of-type {
+      font-size: 30px;
+      line-height: 32px;
+    }
+    .first-row-userpic p:last-of-type {
+      font-size: 18px;
+      line-height: 22px;
+    }
 
-
+    .first-row-button {
+      height: 40px;
+      width: 140px;
+      font-size: 16px;
+      line-height: 20px;
+    }
   }

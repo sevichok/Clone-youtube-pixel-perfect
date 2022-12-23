@@ -23,6 +23,7 @@
     gap: 4px;
   }
   .ch-header-logo {
+    display: flex;
     padding-top: 1.5px;
   }
   .ch-header-menu span {
@@ -104,7 +105,6 @@
     border: 0;
   }
 
-
   @media screen and (max-width:480px) {
     .ch-header {
       padding: 10px 16px;
@@ -140,5 +140,40 @@
       padding-left: 6px;
       padding-top: 3.5px;
     }
-  
+  }
+    @media (min-width:481px) and (max-width:768px) {
+      .ch-header {
+        padding: 20px 20px;
+        box-sizing: border-box;
+      }
+      .ch-header-logo-title,
+      .ch-header-search input,
+      .ch-header-sidebar-icons,
+      .ch-header-sidebar-user,
+      .ch-header-sidebar   {
+        display: none;
+      }
+      .ch-header-logo img {
+        margin-right: 0px;
+      }
+      .ch-header-menu {
+        position: absolute;
+        left: 92%;
+        gap: 2px;
+      }
+      .ch-header-menu span {
+        border-radius: 50%;
+        width: 5px;
+        height: 5px;
+      }
+      .ch-header-search {
+        padding-left: 0px;
+        margin-left: auto;
+        padding-right: 18px;
+      }
+      .ch-hiding-text {
+        display: flex;
+        padding-left: 6px;
+        padding-top: 3.5px;
+      }
     }

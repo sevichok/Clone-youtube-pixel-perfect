@@ -27,7 +27,8 @@ a {
     gap: 4px;
   }
 .header-logo {
-    padding-top: 1.5px;
+  display: flex;  
+  padding-top: 1.5px;
   }
 .header-menu span {
     width: 20px;
@@ -145,7 +146,45 @@ a {
       margin-top: 2px;
       width: 30px ;
       height: 30px ;
-  
     }
-  
+  }
+  @media (min-width:481px) and (max-width:768px) {
+    .header {
+      padding: 20px 20px;
+      box-sizing: border-box;
+    }
+    .header-menu {
+      display: none;
+    }
+    .header-sidebar {
+      margin-left: 0;
+    }
+    .header-logo {
+      padding-top: 5px;
+      flex-wrap: nowrap;
+      padding-right: 20px;
+    }
+    .header-search {
+      padding-left: 0px;
+      margin-left: auto;
+    }
+    .header-search input {
+      width: 55vw;
+    }
+    .header-input-icon {
+      position: relative;
+      width: 19px ;
+      height: 19px ;
+    }
+    .header-sidebar-icons {
+      display: none;
+    }
+    .header-sidebar-user {
+      padding-left: 24.79px;
+    }
+    .header-sidebar-user img {
+      margin-top: 2px;
+      width: 30px ;
+      height: 30px ;
+    }
   }
