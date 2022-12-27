@@ -148,7 +148,12 @@
         height: 150px;
         object-fit: cover;
         width:100%;
-        object-position: center 50%;
+        object-position: center 40%;
+    }
+    .v-content-sidebar-item:nth-child(2) img,
+    .v-content-sidebar-item:nth-child(3) img,
+    .v-content-sidebar-item:nth-child(4) img{
+        object-position: center 60%;
     }
     .v-content-sidebar-content {
         gap: 10px;
