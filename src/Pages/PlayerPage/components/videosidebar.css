@@ -55,13 +55,15 @@
 .v-content-sidebar-timing {
     background-color: rgba(0,0,0,.3);
     border-radius: 12px;
-    bottom: 90px;
     color: #fff;
     font-size: 14px;
     line-height: 17.57px;
     padding: 3px 9px;
-    position: absolute;
-    right: 11px;
+    position: relative;
+    width: fit-content;
+    margin-left: auto;
+    margin-top: -39px;
+    margin-right: 12px;
 }
 .v-blue_dot {
     width: 24.36px;
@@ -76,7 +78,7 @@
     font-size: 26px;
     font-weight: 700;
     line-height: 32.63px;
-    padding-top: 9px;
+    padding-top: 24px;
 }
 .v-content-sidebar-figcaption-stats {
     box-sizing: border-box;
@@ -89,14 +91,12 @@
     margin-top: 12px;
 }
 .v-content-sidebar-item:nth-child(2) {
-    padding-top: 18px;
+    padding-top: 14px;
 }
 .v-content-sidebar-item:nth-child(2) .v-content-sidebar-figcaption {
-    padding-top: 10px;
+    padding-top: 26px;
 }
-.v-content-sidebar-item:nth-child(2) .v-content-sidebar-timing{
-    bottom: 92px;
-}
+
 .v-content-sidebar-item:nth-child(2) .v-content-sidebar-figcaption-stats,
 .v-content-sidebar-item:nth-child(3) .v-content-sidebar-figcaption-stats  {
     margin-top: 10px;
@@ -105,11 +105,9 @@
     padding-top: 19px;
 }
 .v-content-sidebar-item:nth-child(3) .v-content-sidebar-figcaption {
-    padding-top: 11px;
+    padding-top: 28px;
 }
-.v-content-sidebar-item:nth-child(3) .v-content-sidebar-timing{
-    bottom: 91px;
-}
+
 .v-content-sidebar-item:nth-child(4) {
     margin-top: 20px;
 }
@@ -119,6 +117,7 @@
         box-sizing: border-box;
         padding: 0px 16px;
         overflow: hidden;
+        margin-bottom: 20px;
     }
     .v-content-sidebar-desc-title h3 {
         font-size: 20px;
@@ -157,11 +156,7 @@
     .v-content-sidebar-figcaption {
         font-size: 16px;
         line-height: 20.08px;
-        padding-top: 3px;
-    }
-    .v-content-sidebar-timing {
-        bottom: 75px;
-        
+        padding-top: 25px;
     }
     .v-content-sidebar-figcaption-stats {
         font-size: 13px;
@@ -171,11 +166,9 @@
     .v-content-sidebar-item:nth-child(2) {
         padding-top: 18px;
     }
-    .v-content-sidebar-item:nth-child(2) .v-content-sidebar-timing {
-        bottom: 65px;
-    }
-    .v-content-sidebar-item:nth-child(2) .v-content-sidebar-figcaption {
-        padding-top: 5px;
+    .v-content-sidebar-item:nth-child(2) .v-content-sidebar-figcaption,
+    .v-content-sidebar-item:nth-child(3) .v-content-sidebar-figcaption {
+        padding-top: 25px;
     }
 }
 @media  (min-width:400px) and (max-width:768px){
@@ -194,6 +187,7 @@
     .v-content-sidebar-timing {
         font-size: 22px;
         line-height: 24px;
+        margin-top: -45px;
     }
 }
     

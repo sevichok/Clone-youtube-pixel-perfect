@@ -58,14 +58,23 @@
       font-weight: 400;
       line-height: 17.57px;
       padding: 3px 9px;
-      position: absolute; 
+      position: relative; 
       box-sizing: border-box;
-      left: 484px;
-      bottom: 15px;
+      margin-left: auto;
+      width: fit-content;
+      margin-top: -39px;
+      margin-right: 12px;
+      /* left: 484px;
+      bottom: 15px; */
   }
   .channel-left-content-figure {
     display: flex;
     gap: 32px;
+    position: relative;
+    box-sizing: border-box;
+  }
+  .channel-left-content-figure figure{
+    box-sizing: border-box;
     position: relative;
   }
   .channel-left-content-figure h3 {
@@ -95,7 +104,10 @@
     padding-top: 30px;
   }
   .channel-second-row-right {
-    margin-left: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 70px;
+    padding-right: 20px;
   }
   .channel-second-row-right img {
     border-radius: 50%;
