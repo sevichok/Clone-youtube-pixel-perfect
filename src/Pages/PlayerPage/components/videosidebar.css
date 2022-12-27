@@ -148,6 +148,7 @@
         height: 150px;
         object-fit: cover;
         width:100%;
+        object-position: center 50%;
     }
     .v-content-sidebar-content {
         gap: 10px;
