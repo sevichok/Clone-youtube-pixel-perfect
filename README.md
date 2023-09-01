@@ -1,4 +1,4 @@
-# Innowise YouTube Clone
+# YouTube Clone
 
 Три страницы.
 Связанные роутингом при клике на канал (/channel), при нажатии на видео открывается страница (/video player).
